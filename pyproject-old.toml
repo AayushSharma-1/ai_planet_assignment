@@ -1,0 +1,25 @@
+[project]
+name = "reportagent"
+version = "0.1.0"
+description = "ReportAgent using crewAI"
+authors = [
+    { name = "Your Name", email = "you@example.com" },
+]
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "crewai[tools]>=0.76.9,<1.0.0",
+    "python-dotenv==1.0.1",
+]
+
+[project.scripts]
+reportagent = "reportagent.main:run"
+run_crew = "reportagent.main:run"
+train = "reportagent.main:train"
+replay = "reportagent.main:replay"
+test = "reportagent.main:test"
+
+[build-system]
+requires = [
+    "hatchling",
+]
+build-backend = "hatchling.build"

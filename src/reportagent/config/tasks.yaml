@@ -1,0 +1,41 @@
+develop_report:
+  description: >
+    - Market Analysis: use the market_research to identify the company's target market, customer needs, and market trends.
+
+    - Product Analysis: Use the product_analysis to analyze the company's products and services to identify the areas where AI/ML solutions can be implemented.
+
+    - Recommendations: Use the product research to provide actionable recommendations for AI/ML solutions that can enhance the company's operations and customer experiences.
+
+    - Resources: Use the resource_manager to gather the resources and assets required to develop AI/ML solutions for the company.
+
+  expected_output: >
+    A detailed report that includes a market analysis, product analysis, and recommendations for AI/ML solutions that can enhance the company's operations and customer experiences. The report should be well-structured, informative, and actionable.
+  agent: expert_ai_ml_engineer
+
+market_research:
+  description: >
+    Conduct comprehensive market research for {company_name} to segment the company's target market, key offerings, and strategic focus areas (e.g., operations, supply chain, customer service, etc.). you can refer to the reports of McKinsey, Deloitte, or Nexocode.  Provide a vision and product information. The research should deliver in-depth insights into the company's target market, customer needs, and market trends. The findings should offer valuable recommendations to assist the company in making informed decisions and achieving its business objectives.
+
+  expected_output: >
+    A detailed market research report that includes a segmentation analysis of the company's target market, key offerings, and strategic focus areas. The report should provide valuable insights and recommendations based on the market research findings to help the company make informed decisions and achieve its business objectives.
+
+  agent: market_researcher
+
+product_research:
+  description: >
+    Perform product research using market_research conducted for {company_name} to discover opportunities for AI/ML solution implementation. Evaluate the company's products and services to identify areas where AI/ML can be applied. Leverage the market_research to guide your identification of these opportunities.
+    for example You can search for "How is the retail industry leveraging AI/ML to enhance customer experiences?" or "What are the latest trends in AI/ML for the healthcare industry?".
+  
+  expected_output: >
+    A detailed product research report that identifies opportunities for AI/ML solution implementation in the company's products and services. The report should provide valuable insights and recommendations based on the product research findings to help the company optimize its products and achieve its business goals.
+
+  agent: product_researcher
+  
+resource_manager:
+  description: >
+    collect the resources such as datasets, research papers, tools, and technologies required to develop AI/ML solutions for the given context. The resources should be accurate, up-to-date, and relevant to the project requirements. You can use platforms like Kaggle, Hugging Face, and GitHub to find the resources. Ensure that all links are clickable and each resource has a short description.
+
+  expected_output: >
+    A curated list of resources and assets that includes datasets, research papers, tools, and technologies required to develop AI/ML solutions for the company. The resources should be accurate, up-to-date, and relevant to the project requirements. All links should be clickable, and each resource should have a short description.
+
+  agent: resource_manager_agent
