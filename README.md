@@ -1,3 +1,10 @@
+# Video Demo
+## [link](https://drive.google.com/file/d/1ucfCxLxYhEuOV0V8sDKNxQBHHPsHNxzR/view?usp=sharing)
+
+# Project Report
+## [link](https://docs.google.com/document/d/1dvFThvYufd-DsgVDAiJEI7L-4vX5icXS9knvPyLbmQs/edit?usp=sharing)
+
+
 # Reportagent Crew
 
 Welcome to the Reportagent Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
@@ -40,6 +47,13 @@ cd \.venv\Scripts\activate
 #### **Add your `GITHUB_USERNAME` into the `.env` file**
 #### **Add your `HUGGING_FACE_AUTH_TOKEN` into the `.env` file**
 
+
+
+# Flowchat
+
+![flowchat](/reportagent/Untitled-2024-10-15-0045.png)
+
+
 - Modify `src/reportagent/config/agents.yaml` to define your agents
 - Modify `src/reportagent/config/tasks.yaml` to define your tasks
 - Modify `src/reportagent/crew.py` to add your own logic, tools and specific args
@@ -53,8 +67,7 @@ To kickstart your crew of AI agents and begin task execution, run this from the 
 $ crewai run
 ```
 
-# Video Demo
-## [link](https://drive.google.com/file/d/1ucfCxLxYhEuOV0V8sDKNxQBHHPsHNxzR/view?usp=sharing)
+
 
 This command initializes the ReportAgent Crew, assembling the agents and assigning them tasks as defined in your configuration.
 
