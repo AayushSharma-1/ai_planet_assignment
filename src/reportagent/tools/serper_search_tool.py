@@ -32,7 +32,7 @@ class MySerperTool(BaseTool):
         results = response.json()['organic']
         output = []
 
-        for result in results:
+        for result in results[:4]:
             try:
                 title = result['title']
                 link = result['link']
