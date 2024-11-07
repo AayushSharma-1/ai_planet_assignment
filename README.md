@@ -51,7 +51,7 @@ cd \.venv\Scripts\activate
 
 # Flowchat
 
-![flowchat](/reportagent/Untitled-2024-10-15-0045.png)
+![flowchat](https://github.com/AayushSharma-1/ai_planet_assignment/blob/main/Untitled-2024-10-15-0045.png?raw=true)
 
 
 - Modify `src/reportagent/config/agents.yaml` to define your agents
