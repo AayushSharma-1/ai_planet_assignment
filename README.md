@@ -53,6 +53,9 @@ To kickstart your crew of AI agents and begin task execution, run this from the 
 $ crewai run
 ```
 
+# Video Demo
+## [link](https://drive.google.com/file/d/1ucfCxLxYhEuOV0V8sDKNxQBHHPsHNxzR/view?usp=sharing)
+
 This command initializes the ReportAgent Crew, assembling the agents and assigning them tasks as defined in your configuration.
 
 This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
